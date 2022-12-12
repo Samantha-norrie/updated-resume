@@ -1,0 +1,43 @@
+#landing-page-background {
+    background-image: url("../images/outside_gas_station.webp");
+    height: 100vh;
+}
+
+#employment-history-page-background {
+    background-image: url("../images/clara.jpeg");
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* @media (max-width: 975px) {
+        height: 100%;]
+    } */
+}
+
+#extracurriculars-page-background {
+    background-image: url("../images/cave.jpeg");
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#technical-skills-page-background {
+    background-image: url("../images/ghosts_in_the_static.png");
+    height: 100vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+
+@media (max-width: 975px) {
+    #employment-history-page-background {
+        height: 100%;
+    }
+    #extracurriculars-page-background {
+        height: 100%;
+    }
+    #technical-skills-page-background {
+        height: 100%;
+    }
+}
