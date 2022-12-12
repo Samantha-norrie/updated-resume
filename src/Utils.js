@@ -32,3 +32,10 @@ export const VIKELABS_TITLE = "VikeLabs";
 export const VIKELABS_START_DATE = "September 2020";
 export const VIKELABS_DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula maximus arcu, sit amet egestas sapien tristique quis. Donec efficitur purus id velit efficitur consectetur. Nam tincidunt aliquam egestas. In blandit quis libero in condimentum. Maecenas lacinia eros vel lectus mollis mollis. Mauris posuere vestibulum pulvinar. Duis semper ipsum in leo placerat, sed mattis neque blandit. Nunc quis elementum lectus. Quisque varius urna mauris, dictum pretium mauris sollicitudin in\
                                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula maximus arcu, sit amet egestas sapien tristique quis. Donec efficitur purus id velit efficitur consectetur. Nam tincidunt aliquam egestas. In blandit quis libero in condimentum. Maecenas lacinia eros vel lectus mollis mollis. Mauris posuere vestibulum pulvinar. Duis semper ipsum in leo placerat, sed mattis neque blandit. Nunc quis elementum lectus. Quisque varius urna mauris, dictum pretium mauris sollicitudin in.";
+// Technical skills page
+export const PROGRAMMING_LANGUAGES_TITLE = "Programming Languages";
+export const FRAMEWORKS_AND_LIBRARIES_TITLE = "Frameworks and Libraries";
+export const TOOLS_TITLE = "Tools";
+export const PROGRAMMING_LANGUAGES_DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula maximus arcu, sit amet egestas sapien tristique quis.";
+export const FRAMEWORKS_AND_LIBRARIES_DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula maximus arcu, sit amet egestas sapien tristique quis.";
+export const TOOLS_DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula maximus arcu, sit amet egestas sapien tristique quis.";
