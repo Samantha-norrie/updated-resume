@@ -30,6 +30,10 @@
     background-size: cover;
 };
 
+#slider-styling {
+    height: 10rem;
+}
+
 @media (max-width: 975px) {
     #employment-history-page-background {
         height: 100%;

@@ -1,20 +1,17 @@
 import styled from 'styled-components';
-import React, { Component } from 'react';
+import React from 'react';
+import PageSlider from '../components/PageSlider';
 import "../styling/BackgroundStyling.css";
-import { EDUCATION_BUTTON, EMPLOYMENT_HISTORY, EMPLOYMENT_HISTORY_BUTTON, EXTRACURRICULARS_BUTTON, INTRO_DESCRIPTION_TEXT, INTRO_TITLE_TEXT, TECHNICAL_SKILLS_BUTTON, TITLE_TEXT } from '../Utils.js';
+import {INTRO_DESCRIPTION_TEXT, INTRO_TITLE_TEXT, TECHNICAL_SKILLS_BUTTON, TITLE_TEXT , LANDING_PAGE_VALUE, PageContainer} from '../Utils';
 
-const LandingPageContainer = styled.div`
+
+const IntroContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     @media (max-width: 768px) {
         flex-direction: column;
     }
-`;
-
-const PageButtonContainer = styled.div`
-    display: flex;
-    flex-direction: column;
 `;
 
 const IntroInfoContainer = styled.div`
@@ -54,20 +51,31 @@ const PageButtonText = styled.p`
     color: white;
 `;
 
+const PageSliderContainer = styled.div`
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
 const LandingPage = () => {
     return (
-        <LandingPageContainer id="landing-page-background">
-            <IntroInfoContainer>
-                <TitleText>{INTRO_TITLE_TEXT}</TitleText>
-                <IntroDescriptionText>{INTRO_DESCRIPTION_TEXT}</IntroDescriptionText>
-            </IntroInfoContainer>
-            <PageButtonContainer>
-                <PageButton>{EMPLOYMENT_HISTORY_BUTTON}</PageButton>
-                <PageButton>{TECHNICAL_SKILLS_BUTTON}</PageButton>   
-                <PageButton>{EDUCATION_BUTTON}</PageButton>
-                <PageButton>{EXTRACURRICULARS_BUTTON}</PageButton>           
-            </PageButtonContainer>
-        </LandingPageContainer>
+        <PageContainer id="landing-page-background">
+            <PageSliderContainer>
+                <PageSlider
+                    pageValue={LANDING_PAGE_VALUE}
+                />         
+            </PageSliderContainer>       
+            <IntroContainer>
+                <IntroInfoContainer>
+                    <TitleText>{INTRO_TITLE_TEXT}</TitleText>
+                    <IntroDescriptionText>{INTRO_DESCRIPTION_TEXT}</IntroDescriptionText>
+                </IntroInfoContainer>
+            </IntroContainer>
+        </PageContainer>
     )
 };
 
