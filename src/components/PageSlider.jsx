@@ -13,6 +13,7 @@ const SliderContainer = styled.div`
 
 `;
 
+
 const PageSlider = (props) => {
     const {pageValue} = props;
     const [currentPageValue, setCurrentPageValue]= useState(pageValue);
