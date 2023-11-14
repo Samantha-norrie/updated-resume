@@ -2,15 +2,7 @@ import styled from 'styled-components';
 import React from 'react';
 import '../styling/BackgroundStyling.css';
 import { Slider } from '@mui/material';
-import Stack from '@mui/material/Stack';
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Route,
-    Link,
-    redirect,
-    useNavigate
-  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useState } from 'react';
 import { EDUCATION_PAGE_VALUE, EMPLOYMENT_HISTORY_PAGE_VALUE, EXTRACURRICULARS_PAGE_VALUE, LANDING_PAGE_VALUE, TECHNICAL_SKILLS_PAGE_VALUE } from '../Utils';
 
@@ -33,7 +25,7 @@ const PageSlider = (props) => {
                 step={1}
                 min={1}
                 max={5}
-                defaultValue={currentPageValue}
+                defaultValue={pageValue}
                 orientation="vertical"
                 size="small"
                 onChangeCommitted={(e, value) => {
