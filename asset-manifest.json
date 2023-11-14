@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.294648d0.css",
+    "main.js": "/static/js/main.7f5c6cd4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/clara.jpeg": "/static/media/clara.92ca490e42cb82aea7f7.jpeg",
+    "static/media/ghosts_in_the_static.png": "/static/media/ghosts_in_the_static.b2f2b5497453e1900932.png",
+    "static/media/outside_gas_station.webp": "/static/media/outside_gas_station.16dfdc85b46a2fc940bf.webp",
+    "static/media/cave.jpeg": "/static/media/cave.0e28ac7e2cdd90687bb7.jpeg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.294648d0.css.map": "/static/css/main.294648d0.css.map",
+    "main.7f5c6cd4.js.map": "/static/js/main.7f5c6cd4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.294648d0.css",
+    "static/js/main.7f5c6cd4.js"
+  ]
+}
